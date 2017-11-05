@@ -1,5 +1,5 @@
-angular.module('myapp', [])
-  .factory('myservice', function(){
+angular.module('mathmodule', [])
+  .factory('mathservice', function(){
 
     var addTwoNumbers = function(x, y){
       return x + y;
