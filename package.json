@@ -1,0 +1,19 @@
+{
+  "name": "angularjs-jest-example",
+  "version": "0.0.1",
+  "description": "AngularJs with Jest example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curttimson/angularjs-jest-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curttimson/angularjs-jest-example/issues"
+  },
+  "homepage": "https://github.com/curttimson/angularjs-jest-example#readme"
+}
