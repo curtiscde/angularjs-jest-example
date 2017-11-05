@@ -1,6 +1,6 @@
 require('../node_modules/angular/angular.min.js');
 require('../node_modules/angular-mocks/angular-mocks.js');
-require('./app.js');
+require('./mathservice.js');
 
 describe('Math service - addTwoNumbers', function(){
 
