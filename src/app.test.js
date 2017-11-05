@@ -15,10 +15,13 @@ describe('myservice service tests', function(){
   }));
 
   it('1 + 1 should equal 2', function(){
-    expect(
-      _myservice.addTwoNumbers(1,1)
-    )
-    .toEqual(2);
+    var actual = _myservice.addTwoNumbers(1,1);
+    expect(actual).toEqual(2);
+  });
+
+  it('50 + 80 should equal 130', function(){
+    var actual = _myservice.addTwoNumbers(50,80);
+    expect(actual).toEqual(130);
   });
 
 });
