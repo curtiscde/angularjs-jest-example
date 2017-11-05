@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/curttimson/angularjs-jest-example/issues"
   },
-  "homepage": "https://github.com/curttimson/angularjs-jest-example#readme"
+  "homepage": "https://github.com/curttimson/angularjs-jest-example#readme",
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
 }
