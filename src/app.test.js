@@ -19,6 +19,11 @@ describe('myservice service tests', function(){
     expect(actual).toEqual(2);
   });
 
+  it('10 + 5 should equal 15', function(){
+    var actual = _myservice.addTwoNumbers(10,5);
+    expect(actual).toEqual(15);
+  });
+
   it('50 + 80 should equal 130', function(){
     var actual = _myservice.addTwoNumbers(50,80);
     expect(actual).toEqual(130);

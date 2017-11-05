@@ -1,6 +1,6 @@
 {
   "name": "angularjs-jest-example",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "AngularJs with Jest example",
   "main": "index.js",
   "scripts": {
