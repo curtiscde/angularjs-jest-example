@@ -14,3 +14,8 @@ git clone git@github.com:curttimson/angularjs-jest-example.git
 ```
 npm i
 ```
+
+### Run tests
+```
+npm test
+```

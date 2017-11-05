@@ -1,7 +1,11 @@
 angular.module('myapp', [])
   .factory('myservice', function(){
 
-    return {
+    var addTwoNumbers = function(x, y){
+      return x + y;
+    };
 
+    return {
+      addTwoNumbers
     };
   });
