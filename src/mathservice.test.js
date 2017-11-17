@@ -30,32 +30,3 @@ describe('Math service - addTwoNumbers', function(){
   });
 
 });
-
-describe('Math service - multiplyTwoNumbers', function(){
-
-  beforeEach(
-    angular.mock.module('mathmodule')
-  );
-
-  var _mathservice;
-
-  beforeEach(inject((mathservice) => {
-    _mathservice = mathservice;
-  }));
-
-  it('1 * 1 should equal 1', function(){
-    var actual = _mathservice.multiplyTwoNumbers(1,1);
-    expect(actual).toEqual(1);
-  });
-
-  it('10 * 10 should equal 100', function(){
-    var actual = _mathservice.multiplyTwoNumbers(10,10);
-    expect(actual).toEqual(100);
-  });
-
-  it('42 + 8 should equal 336', function(){
-    var actual = _mathservice.multiplyTwoNumbers(42,8);
-    expect(actual).toEqual(336);
-  });
-
-});
