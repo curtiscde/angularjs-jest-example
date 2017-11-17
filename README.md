@@ -1,5 +1,8 @@
 # angularjs-jest-example
+
 AngularJs with Jest example
+
+https://curtistimson.co.uk/post/angularjs/angularjs-jest-unit-testing
 
 ## Setup Steps
 
