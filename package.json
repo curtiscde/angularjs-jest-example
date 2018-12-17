@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/curttimson/angularjs-jest-example#readme",
   "dependencies": {
+    "add-two-number": "^0.2.0",
     "angular": "^1.6.6"
   },
   "devDependencies": {
