@@ -1,17 +1,17 @@
 require('../../node_modules/angular/angular.min.js');
 require('../../node_modules/angular-mocks/angular-mocks.js');
-require('./mathservice_withdependency.js');
+require('./mathservice.js');
 
 describe('Math service - addTwoNumbers', function(){
 
   beforeEach(
-    angular.mock.module('mathmodule_withdependency')
+    angular.mock.module('mathmodule')
   );
 
   var _mathservice;
 
-  beforeEach(inject((mathservice_withdependency) => {
-    _mathservice = mathservice_withdependency;
+  beforeEach(inject((mathservice) => {
+    _mathservice = mathservice;
   }));
 
   it('1 + 1 should equal 2', function(){
