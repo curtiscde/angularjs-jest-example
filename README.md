@@ -1,24 +1,23 @@
-# angularjs-jest-example
+# AngularJs with Jest example
 
-AngularJs with Jest example
-
-https://curtistimson.co.uk/post/angularjs/angularjs-jest-unit-testing
+https://www.curtiscode.dev/post/angularjs/angularjs-jest-unit-testing
 
 ## Setup Steps
 
 ### Clone Repository
 
 ```
-git clone git@github.com:curttimson/angularjs-jest-example.git
+git clone git@github.com:curtiscde/angularjs-jest-example.git
 ```
 
 ### Npm install dependencies
 
-```
-npm i
+```shell
+$ npm i
 ```
 
 ### Run tests
-```
-npm test
+
+```shell
+$ npm test
 ```
